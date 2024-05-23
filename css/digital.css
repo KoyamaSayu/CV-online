@@ -1,0 +1,21 @@
+@media only screen and (min-width: 992px) {
+#myGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+#myGoals {
+    grid-area: 1/ span 2/ 1/ span 2;
+}
+#myScopes {
+    grid-area: 2/ 1/ span 1/ span 2;
+}
+#primary {
+    grid-area: 2/ 3/ 2/ 4; /* Row start/ Col Start/ Row end/ Col end */
+}
+#timeline {
+    grid-row: 1/ span 2;
+}
+}
+
